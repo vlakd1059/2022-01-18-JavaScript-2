@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let num1 = 10;
+      let num2 = 3;
+      console.log("더한값 >> " + (num1 + num2));
+      console.log("뺀 값 >> " + (num1 - num2));
+      console.log("곱한 값 >> " + num1 * num2);
+      console.log("나눈 결과 값 >> " + num1 / num2); //몫만 나오는것이라 아니라 소수점으로 다 나온다!
+      //정수 형태 타입으로 변경하기
+      console.log("나눈 결과 값 >> " + parseInt(num1 / num2));
+      console.log("나눈 결과 나머지 >>" + (num1 % num2));
+
+      // == 연산자를 사용하면 안에있는 데이터로 판단하여 반환(자료형의 형태는 신경쓰지 않는다)
+      10 == "10"; // 이렇게 적어도 ture가 반환된다
+      // === 연산자를 사용하면 정확히 값과 자료형을 비교하여 반환
+      10 === "10"; // 이렇게 적으면 자료형이 다르기 때문에 false가 나온다!
+    </script>
+  </body>
+</html>
